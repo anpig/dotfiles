@@ -80,6 +80,7 @@ ZLE_RPROMPT_INDENT=0
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
+DISABLE_AUTO_UPDATE="true"
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
